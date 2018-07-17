@@ -55,7 +55,7 @@ function destructivelyRemoveElementFromEndOfArray(array)
 
 function removeElementFromEndOfArray(array)
 {
-  let array4 = [];
+  array4 = [];
   array.foreach((value, index) =>{
   array4.push(value);
   })
